@@ -59,7 +59,6 @@ DROP TABLE IF EXISTS `EMPLOYEES`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `EMPLOYEES` (
   `num` int(11) NOT NULL,
-  `surname` varchar(50) NOT NULL,
   `name` varchar(50) NOT NULL,
   `manager` int(11) DEFAULT NULL,
   `begin_date` date DEFAULT NULL,
